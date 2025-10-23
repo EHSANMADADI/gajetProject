@@ -1,0 +1,60 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Coverage and test output
+coverage/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Next.js build
+.next/
+out/
+
+# SvelteKit / Vite build
+.svelte-kit/
+vite-dist/
+
+# Remix build
+build/
+
+# Optional lock files (if you only use one package manager)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
