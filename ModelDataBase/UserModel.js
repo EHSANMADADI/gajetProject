@@ -15,8 +15,23 @@ const userSchema = new mongoose.Schema({
      type:Number,
      require:false,
      default:60
+  },
+  lastName:{
+    type:String,
+    required:true
+  },
+  firstName:{
+    type:String,
+    required:true
+  },
+  gender:{
+    type:Boolean,
+    required:true
+  },
+  info:{
+    type:String,
+    required:false
   }
-
 });
 
 export default mongoose.model("UserModel", userSchema);
