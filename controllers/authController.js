@@ -7,7 +7,7 @@ export const register = async (req, res) => {
 
   try {
     const existingUser = await UserModel.findOne({ username });
-    if (!username || !password || !gender || !firstName || !lastName) {
+    if (!username || !password || !gender || !firstName || !lastName ||!age ) {
       return res.status(400).json({ error: 'gender و firstName,lastName,username,password الزامی هستند' });
     }
     if (existingUser) return res.status(400).json({ message: "User already exists" });
